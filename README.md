@@ -31,19 +31,19 @@ The screenshots record password recovery using **Johnny (the graphical interface
 
 Johnny was configured to use the John the Ripper Jumbo executable. The application detected the installed executable.
 
-![Johnny configuration showing the John the Ripper executable](screenshots/01-johnny-configuration.png)
+![Johnny configuration showing the John the Ripper executable](01-johnny-configuration.png)
 
 ### 2. Recover a PDF password with Johnny
 
 The Johnny results window showed a successful PDF password recovery: `good-luck`.
 
-![Johnny password table showing recovered password](screenshots/02-johnny-password-recovered.png)
+![Johnny password table showing recovered password](02-johnny-password-recovered.png)
 
 ### 3. Extract a password-testable PDF hash
 
 Another screenshot shows an encrypted NetworkWalks PDF being processed by a PDF hash extraction webpage. The page displayed a hash in the `$pdf$...` format, described as compatible with PDF password-recovery tools.
 
-![PDF hash extraction from a locked training PDF](screenshots/07-pdf-hash-extraction.png)
+![PDF hash extraction from a locked training PDF](07-pdf-hash-extraction.png)
 
 ### 4. Recover passwords with a browser-based tester
 
@@ -51,11 +51,11 @@ The password tester screenshots show two additional successful matches: `passwor
 
 **Recovered password: `password1`**
 
-![Browser-based PDF password test showing password1](screenshots/06-browser-password-recovered-password1.png)
+![Browser-based PDF password test showing password1](06-browser-password-recovered-password1.png)
 
 **Recovered password: `1qaz2wsx`**
 
-![Browser-based PDF password test showing 1qaz2wsx](screenshots/08-browser-password-recovered-1qaz2wsx.png)
+![Browser-based PDF password test showing 1qaz2wsx](08-browser-password-recovered-1qaz2wsx.png)
 
 ### 5. Capture the challenge flags
 
@@ -63,15 +63,15 @@ The following screenshots show three NetworkWalks congratulations/flag screens. 
 
 **Flag screenshot 1**
 
-![First captured NetworkWalks flag](screenshots/03-networkwalks-flag-1.png)
+![First captured NetworkWalks flag](03-networkwalks-flag-1.png)
 
 **Flag screenshot 2**
 
-![Second captured NetworkWalks flag](screenshots/04-networkwalks-flag-2.png)
+![Second captured NetworkWalks flag](04-networkwalks-flag-2.png)
 
 **Flag screenshot 3**
 
-![Third captured NetworkWalks flag](screenshots/05-networkwalks-flag-3.png)
+![Third captured NetworkWalks flag](05-networkwalks-flag-3.png)
 
 ## Results
 
@@ -89,15 +89,14 @@ The following screenshots show three NetworkWalks congratulations/flag screens. 
 ```text
 .
 ├── README.md
-└── screenshots/
-    ├── 01-johnny-configuration.png
-    ├── 02-johnny-password-recovered.png
-    ├── 03-networkwalks-flag-1.png
-    ├── 04-networkwalks-flag-2.png
-    ├── 05-networkwalks-flag-3.png
-    ├── 06-browser-password-recovered-password1.png
-    ├── 07-pdf-hash-extraction.png
-    └── 08-browser-password-recovered-1qaz2wsx.png
+├── 01-johnny-configuration.png
+├── 02-johnny-password-recovered.png
+├── 03-networkwalks-flag-1.png
+├── 04-networkwalks-flag-2.png
+├── 05-networkwalks-flag-3.png
+├── 06-browser-password-recovered-password1.png
+├── 07-pdf-hash-extraction.png
+└── 08-browser-password-recovered-1qaz2wsx.png
 ```
 
 ## Notes
